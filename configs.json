@@ -1,0 +1,10 @@
+{
+  "DATA_DIRECTORY": "Path to data directory",
+  "LOOKBACK_WINDOW": 6,
+  "LOOKFORWARD_WINDOW": 1,
+  "CNN_MODEL": {
+    "BATCH_SIZE": 64,
+    "EPOCHS": 600,
+    "LEARNING_RATE": 0.0001
+  }
+}
