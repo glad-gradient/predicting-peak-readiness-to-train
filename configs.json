@@ -2,9 +2,11 @@
   "DATA_DIRECTORY": "Path to data directory",
   "LOOKBACK_WINDOW": 6,
   "LOOKFORWARD_WINDOW": 1,
+  "MODEL_CHECKPOINT_PATH": "models",
+  "RANDOM_STATE": 42,
   "CNN_MODEL": {
     "BATCH_SIZE": 64,
-    "EPOCHS": 600,
+    "EPOCHS": 500,
     "LEARNING_RATE": 0.0001
   }
 }
