@@ -26,14 +26,12 @@ lookforward_window = configs['LOOKFORWARD_WINDOW']
 
 df = pd.read_csv('dataset.csv')
 
-df['readiness_group'] = pd.cut(df['readiness'], 3, labels=[0, 1, 2])
-
 X, y = split_sequences(
     df,
     lookback_window,
     lookforward_window,
     y_variable_name='readiness_group',
-    exclude_columns=['pid', 'date', 'readiness', 'readiness_group']
+    exclude_columns=['pid', 'date', 'readiness_group']
 )
 
 nsamples, nx, ny = X.shape
