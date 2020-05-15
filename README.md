@@ -1,1 +1,1 @@
-# predicting-peak-readiness-to-train
+Use PMSys dataset from https://datasets.simula.no/pmdata/ to predict the athlete’s readiness level for the next training or competition. Such predictions can be used by coaches to select the set of players that are to attend a game or a training, and adjust the duration and intensity of their activities.
